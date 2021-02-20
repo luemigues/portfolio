@@ -1,5 +1,5 @@
-
 import './App.css';
+import Button from '../button/button.js';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <p>
           Portfolio Luemigues
         </p>
+        <Button />
       </header>
     </div>
   );
