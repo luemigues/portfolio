@@ -1,15 +1,10 @@
 import './App.css';
-import Button from '../button/button.js';
+import Topbar from '../topbar/topbar.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Portfolio Luemigues
-        </p>
-        <Button />
-      </header>
+      <Topbar />
     </div>
   );
 }

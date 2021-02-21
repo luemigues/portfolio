@@ -8,17 +8,17 @@ export const styles = {
     },
 
     fontSize: {
-        pbold24: '24px',
-        pextrab20: '20px',
-        preg16: '16px',
-        pblack40: '40px'
+        pbold: '22px',
+        pextrab: '18px',
+        preg: '14px',
+        pblack: '32px'
     },
 
     fontWeight: {
-        pbold24: '700',
-        pextrab20: '800',
-        preg16: '400',
-        pblack40: '900'
+        pbold: '700',
+        pextrab: '800',
+        preg: '400',
+        pblack: '900'
     },
 
     fontFam: "'Poppins', arial, sans-serif"
