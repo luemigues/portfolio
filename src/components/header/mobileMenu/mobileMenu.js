@@ -1,20 +1,66 @@
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 import {Nav, ListContainer, ListItem} from './mobileMenu-styling.js';
+import {styles} from '../../../utils/stylevars.js';
 
 function MobileMenu(props){
 
-    const listItems = props.items.map( (item) => {
-        const link = (() => {
-            const joined = item.split(" ").join("");
-            return `#${joined}`
-        })();
-
-        return <ListItem key={item}> <a href={link}> {item} </a></ListItem>
-    })
+     const active = {
+        color: styles.colors.blue
+    }
 
     return (
         <Nav>
             <ListContainer>
-                    {listItems}
+                <ListItem>
+                    <NavLink 
+                    to="/" 
+                    exact="true"
+                    activeStyle={active} 
+                    onClick={props.handleClick}>
+                         About Me 
+                    </NavLink>
+                </ListItem>
+
+                <ListItem>
+                    <NavLink 
+                    to="development" 
+                    exact="true" 
+                    activeStyle={active} 
+                    onClick={props.handleClick}> 
+                        Development 
+                    </NavLink>
+                </ListItem>
+
+                <ListItem>
+                    <NavLink 
+                    to="design"                     
+                    exact="true" 
+                    activeStyle={active} 
+                    onClick={props.handleClick}> 
+                        Graphic Design 
+                    </NavLink>
+                </ListItem>
+
+                <ListItem>
+                    <NavLink 
+                    to="photography"                    
+                    exact="true" 
+                    activeStyle={active} 
+                    onClick={props.handleClick}> 
+                        Photgraphy 
+                    </NavLink>
+                </ListItem>
+
+                <ListItem>
+                    <NavLink 
+                    to="contact"
+                    exact="true" 
+                    activeStyle={active} 
+                    onClick={props.handleClick}>  
+                        Get in touch 
+                    </NavLink>
+                </ListItem>
             </ListContainer>
         </Nav>
     );

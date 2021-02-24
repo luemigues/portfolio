@@ -1,24 +1,63 @@
+import React from 'react';
+import {NavLink, Link} from 'react-router-dom';
 import {Nav, ListContainer, ListItem} from './desktopMenu-styling';
 import Button from '../../button/button.js';
+import {styles} from '../../../utils/stylevars.js';
 
 
 function DesktopMenu(props){
-
-    const listItems = props.items.map( (item) => {
-        const link = (() => {
-            const joined = item.split(" ").join("");
-            return `#${joined}`
-        })();
-
-        return <ListItem key={item}><a href={link}> {item} </a></ListItem>
-    })
+    const active = {
+        color: styles.colors.blue
+    }
     
     return (
         <Nav>
             <ListContainer>
-                {listItems}
+                <ListItem>
+                    <NavLink 
+                    to="home" 
+                    exact="true"
+                    activeStyle={active} 
+                    onClick={props.handleClick}>
+                         About Me 
+                    </NavLink>
+                </ListItem>
+
+                <ListItem>
+                    <NavLink 
+                    to="development" 
+                    exact="true" 
+                    activeStyle={active} 
+                    onClick={props.handleClick}> 
+                        Development 
+                    </NavLink>
+                </ListItem>
+
+                <ListItem>
+                    <NavLink 
+                    to="design"                     
+                    exact="true" 
+                    activeStyle={active} 
+                    onClick={props.handleClick}> 
+                        Graphic Design 
+                    </NavLink>
+                </ListItem>
+
+                <ListItem>
+                    <NavLink 
+                    to="photography"                    
+                    exact="true" 
+                    activeStyle={active} 
+                    onClick={props.handleClick}> 
+                        Photgraphy 
+                    </NavLink>
+                </ListItem>
             </ListContainer>
-            <Button text='Get in touch' />
+
+            <Link to="/development">
+                <Button text='Get in touch' />
+            </Link>
+
         </Nav>
     )
 

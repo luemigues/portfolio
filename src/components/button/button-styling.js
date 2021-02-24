@@ -21,6 +21,10 @@ const ButtonS = styled.button`
     -webkit-appearance: none;
     -moz-appearance: none;
 
+    &:focus{
+        outline: 0;
+    }
+
     @media (max-width: 990px) { 
         display: none;
     }

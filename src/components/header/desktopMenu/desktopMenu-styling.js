@@ -4,9 +4,10 @@ import {styles} from '../../../utils/stylevars.js';
 export const Nav = styled.nav`
     display: flex;
     align-content: center;
+    align-items: center;
     justify-content: space-between;
     margin: 0 1rem;
-    width: 72%;
+    width: 71%;
 
 `;
 
@@ -15,8 +16,8 @@ export const ListContainer = styled.ul`
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    margin-right: 3rem;
-    margin-left: 0.5rem;
+    margin-right: 3.5rem;
+    margin-left: 1rem;
 
 `;
 

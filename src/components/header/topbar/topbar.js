@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import {getWindowDimensions} from '../../../utils/helperfunctions.js';
 import {Header, Title, BlueMenu, BlueClose} from './topbar-styling';
