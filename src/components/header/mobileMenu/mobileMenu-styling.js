@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import {styles} from '../../../utils/stylevars.js';
+import {NavLink} from 'react-router-dom';
+
+const activeClassName = 'selected';
 
 export const Nav = styled.nav`
     display: block;
@@ -39,4 +42,16 @@ export const ListItem = styled.li`
     width: max-content;
 
 
+`;
+
+export const StyledLink = styled(NavLink).attrs({
+    activeClassName,
+})`
+    &:hover, &:active{
+        color: ${styles.hover.text};
+    }
+
+    &.${activeClassName} {
+    color: ${styles.hover.blue};
+    }
 `;

@@ -21,6 +21,12 @@ export const styles = {
         pblack: '900'
     },
 
+    hover: {
+        grey: '#888686',
+        blue: '#0F2B98',
+        text: '#666B7D'
+    },
+
     fontFam: "'Poppins', arial, sans-serif"
 
 };

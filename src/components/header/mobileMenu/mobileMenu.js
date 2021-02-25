@@ -1,65 +1,55 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import {Nav, ListContainer, ListItem} from './mobileMenu-styling.js';
-import {styles} from '../../../utils/stylevars.js';
+import {Nav, ListContainer, ListItem, StyledLink} from './mobileMenu-styling.js';
 
 function MobileMenu(props){
-
-     const active = {
-        color: styles.colors.blue
-    }
 
     return (
         <Nav>
             <ListContainer>
                 <ListItem>
-                    <NavLink 
+                    <StyledLink 
                     to="/" 
-                    exact="true"
-                    activeStyle={active} 
+                    end
+                    activeClassName="selected"
                     onClick={props.handleClick}>
                          About Me 
-                    </NavLink>
+                    </StyledLink>
                 </ListItem>
 
                 <ListItem>
-                    <NavLink 
+                    <StyledLink 
                     to="development" 
-                    exact="true" 
-                    activeStyle={active} 
+                    activeClassName="selected"
                     onClick={props.handleClick}> 
                         Development 
-                    </NavLink>
+                    </StyledLink>
                 </ListItem>
 
                 <ListItem>
-                    <NavLink 
+                    <StyledLink 
                     to="design"                     
-                    exact="true" 
-                    activeStyle={active} 
+                    activeClassName="selected" 
                     onClick={props.handleClick}> 
                         Graphic Design 
-                    </NavLink>
+                    </StyledLink>
                 </ListItem>
 
                 <ListItem>
-                    <NavLink 
+                    <StyledLink 
                     to="photography"                    
-                    exact="true" 
-                    activeStyle={active} 
+                    activeClassName="selected" 
                     onClick={props.handleClick}> 
                         Photgraphy 
-                    </NavLink>
+                    </StyledLink>
                 </ListItem>
 
                 <ListItem>
-                    <NavLink 
-                    to="contact"
-                    exact="true" 
-                    activeStyle={active} 
+                    <StyledLink 
+                    to="contact" 
+                    activeClassName="selected"
                     onClick={props.handleClick}>  
                         Get in touch 
-                    </NavLink>
+                    </StyledLink>
                 </ListItem>
             </ListContainer>
         </Nav>

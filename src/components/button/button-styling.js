@@ -3,7 +3,9 @@ import {styles} from '../../utils/stylevars.js';
 
 const ButtonS = styled.button`
     background: ${props => props.color === 'grey' ? styles.colors.grey : styles.colors.blue};
+    box-shadow: 0px 3px 6px #00000029;
     color: ${styles.colors.white};
+    transition: background 0.5s;
 
     font-size: ${styles.fontSize.preg};
     font-weight: ${styles.fontWeight.preg};
@@ -20,9 +22,14 @@ const ButtonS = styled.button`
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
+    
 
     &:focus{
         outline: 0;
+    }
+
+    &:hover, &:active{
+        background: ${props => props.color === 'grey' ? styles.hover.grey : styles.hover.blue};
     }
 
     @media (max-width: 990px) { 
