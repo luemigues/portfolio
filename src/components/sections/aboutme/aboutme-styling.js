@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const Div = styled.div`
+export const Section = styled.section`
     height: 100vh;
     width: 100vw;
     background: red;
@@ -9,18 +8,8 @@ const Div = styled.div`
     padding-top: 150px;
 `;
 
-const H1 = styled.h1`
+export const H1 = styled.h1`
     text-align: center;
     color: white;
     font-size: 32px;
 `;
-
-function AboutMe(props){
-    return (
-        <Div>
-            <H1>About Me</H1>
-        </Div>
-    )
-}
-
-export default AboutMe;
