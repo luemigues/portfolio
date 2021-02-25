@@ -33,10 +33,9 @@ const ButtonS = styled.button`
     }
 
     @media (max-width: 990px) { 
-        display: none;
+        display:${props => props.color === 'grey' ? 'block' : 'none'};
     }
 
-    // display: ${props => props.isMobile ? 'none' : 'block'};
 `;
 
 export default ButtonS
