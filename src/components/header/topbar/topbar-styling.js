@@ -9,7 +9,7 @@ const mobileBP = `(max-width: 990px)`;
 export const Header = styled.header`
     height: 56px;
     width:  100%;
-    padding: 0rem 9rem;
+    padding: 0rem 8%;
     position: fixed;
 
     border: 1px solid ${styles.colors.border};
