@@ -9,10 +9,9 @@ export const SkillsContainer = styled.div`
     width: 520px;
 
     @media (max-width: 990px) { 
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
         justify-content: center;
         max-width: 290px;
-
     }
 
 `;
