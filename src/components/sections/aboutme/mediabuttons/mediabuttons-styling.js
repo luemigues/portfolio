@@ -22,6 +22,7 @@ export const ButtonsContainer = styled.div`
 
     @media (max-width: 990px) { 
         min-width: 320px;
+        margin-right: 0rem;
      }
 `;
 

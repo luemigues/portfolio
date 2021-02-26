@@ -30,5 +30,6 @@ export const SkillsButtonContainer = styled.div`
         @media ${mobileBP} { 
             flex-wrap: wrap-reverse;
             justify-items: center;
+            max-width: 68%;
         }
 `;

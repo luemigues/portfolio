@@ -14,7 +14,7 @@ export const ProfileContainer = styled.div`
     @media only screen and ${mobileBP}  { 
         flex-wrap: wrap;
         margin-bottom: 1.5rem;
-        max-width: 88%;
+        max-width: 68%;
     }
     
 `;
@@ -43,7 +43,7 @@ export const TextContainer = styled.div`
 
     @media only screen and ${mobileBP} { 
         justify-content: center;
-        max-width: 320px;
+        max-width: 100%;
     }
 
 `;
