@@ -3,6 +3,14 @@ import {styles} from '../../../../utils/stylevars.js';
 import {Linkedin} from '@styled-icons/bootstrap/Linkedin';
 import {GithubSquare} from '@styled-icons/fa-brands/GithubSquare';
 
+const mobileStyle = `@media (max-width: 990px) { 
+       color:${styles.colors.blue};
+
+        &:hover, &:active{
+            color: ${styles.hover.blue};
+        }
+    }`
+
 export const ButtonsContainer = styled.div`
     display: flex;
     flex-direction: column;
@@ -11,6 +19,10 @@ export const ButtonsContainer = styled.div`
     align-items: center;
     min-width: 370px;
     margin-right: 7%;
+
+    @media (max-width: 990px) { 
+        min-width: 320px;
+     }
 `;
 
 export const SocialMediaContainer = styled.div`
@@ -29,6 +41,8 @@ export const LinkedinIcon = styled(Linkedin)`
     &:hover{
         color: ${styles.hover.grey};
     }
+
+    ${mobileStyle}
 `;
 
 export const GithubIcon = styled(GithubSquare)`
@@ -40,5 +54,7 @@ export const GithubIcon = styled(GithubSquare)`
     &:hover{
         color: ${styles.hover.grey};
     }
+
+    ${mobileStyle}
     
 `;

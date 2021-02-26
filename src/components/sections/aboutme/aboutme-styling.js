@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+const mobileBP = `(max-width: 990px)`;
+
 export const Section = styled.section`
     height: 100vh;
     max-width: 100%;
@@ -9,6 +11,12 @@ export const Section = styled.section`
     justify-content: center;
     align-content: center;
     flex-direction: column;
+
+    @media ${mobileBP} { 
+        height: 100%;
+        padding-top: 90px;
+        align-items: center;
+    }
 `;
 
 export const SkillsButtonContainer = styled.div`
@@ -18,4 +26,9 @@ export const SkillsButtonContainer = styled.div`
         margin: 4% 0%;
         justify-content: center;
         align-items: flex-start;
+
+        @media ${mobileBP} { 
+            flex-wrap: wrap-reverse;
+            justify-items: center;
+        }
 `;

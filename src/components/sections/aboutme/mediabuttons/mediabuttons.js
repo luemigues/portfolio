@@ -7,7 +7,7 @@ function SocialMediaButtons(){
     return(
 
         <ButtonsContainer>
-            <Button color="grey" text="Download CV" />
+            <Button type="download" text="Download CV" />
             <SocialMediaContainer>
                 <LinkedinIcon/>
                 <GithubIcon />
