@@ -47,7 +47,7 @@ function DesktopMenu(props){
                 </ListItem>
             </ListContainer>
 
-            <Link to="/development">
+            <Link to="/contact">
                 <Button text='Get in touch' />
             </Link>
 
