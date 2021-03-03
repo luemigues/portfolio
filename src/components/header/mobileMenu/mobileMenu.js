@@ -39,7 +39,7 @@ function MobileMenu(props){
                     to="photography"                    
                     activeClassName="selected" 
                     onClick={props.handleClick}> 
-                        Photgraphy 
+                        Photography 
                     </StyledLink>
                 </ListItem>
 

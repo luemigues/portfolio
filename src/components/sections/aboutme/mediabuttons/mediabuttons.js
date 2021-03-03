@@ -1,7 +1,7 @@
 import React from 'react';
 import {ButtonsContainer, SocialMediaContainer, LinkedinIcon, GithubIcon} from './mediabuttons-styling.js';
 import Button from '../../../button/button.js';
-import CV from '../../../../utils/CV-LUCIA-MIGUES.pdf';
+import CV from '../../../../assets/CV-LUCIA-MIGUES.pdf';
 
 function SocialMediaButtons(){
 
