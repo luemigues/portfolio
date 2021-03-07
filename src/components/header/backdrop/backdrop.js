@@ -8,9 +8,9 @@ const BackDiv = styled.div`
     width: 100vw;
     background: ${styles.colors.border};
     opacity: 0.5;
-    top: 265px;
+    top: 100px;
     left: 0;
-    z-index: 200;
+    z-index: 100;
 `;
 
 function Backdrop(props){

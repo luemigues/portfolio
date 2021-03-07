@@ -28,8 +28,6 @@ export const Card = styled.div`
     transform: translateY(2rem);
     transition: transform ease 0.2s;
 
-
-
 `;
 
 export const CardTitleContainer = styled.div`

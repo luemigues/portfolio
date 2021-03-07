@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.10c4225a.chunk.css",
-    "main.js": "/static/js/main.7c86a312.chunk.js",
-    "main.js.map": "/static/js/main.7c86a312.chunk.js.map",
+    "main.js": "/static/js/main.ef9f05d0.chunk.js",
+    "main.js.map": "/static/js/main.ef9f05d0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66373b99.js",
     "runtime-main.js.map": "/static/js/runtime-main.66373b99.js.map",
     "static/js/2.e6cdecb6.chunk.js": "/static/js/2.e6cdecb6.chunk.js",
@@ -11,19 +11,19 @@
     "static/css/main.10c4225a.chunk.css.map": "/static/css/main.10c4225a.chunk.css.map",
     "static/js/2.e6cdecb6.chunk.js.LICENSE.txt": "/static/js/2.e6cdecb6.chunk.js.LICENSE.txt",
     "static/media/CV-LUCIA-MIGUES.d4278f48.pdf": "/static/media/CV-LUCIA-MIGUES.d4278f48.pdf",
-    "static/media/CV-Migues.e70ca6e4.jpg": "/static/media/CV-Migues.e70ca6e4.jpg",
-    "static/media/Jamming.f94966d1.PNG": "/static/media/Jamming.f94966d1.PNG",
-    "static/media/Palebluedot.387f7ee2.PNG": "/static/media/Palebluedot.387f7ee2.PNG",
-    "static/media/delilah.92183c06.PNG": "/static/media/delilah.92183c06.PNG",
-    "static/media/gifos.52286ac3.PNG": "/static/media/gifos.52286ac3.PNG",
-    "static/media/noImageWeb.c928f4f3.png": "/static/media/noImageWeb.c928f4f3.png",
-    "static/media/portfolio.5296d384.PNG": "/static/media/portfolio.5296d384.PNG",
-    "static/media/ravenous.c0733e9e.PNG": "/static/media/ravenous.c0733e9e.PNG"
+    "static/media/CV-Migues.15209f34.jpg": "/static/media/CV-Migues.15209f34.jpg",
+    "static/media/Jamming.80e03700.PNG": "/static/media/Jamming.80e03700.PNG",
+    "static/media/Palebluedot.289a31bc.PNG": "/static/media/Palebluedot.289a31bc.PNG",
+    "static/media/delilah.050ff2dc.PNG": "/static/media/delilah.050ff2dc.PNG",
+    "static/media/gifos.f028de34.PNG": "/static/media/gifos.f028de34.PNG",
+    "static/media/noImageWeb.3601bc20.png": "/static/media/noImageWeb.3601bc20.png",
+    "static/media/portfolio.058fc027.PNG": "/static/media/portfolio.058fc027.PNG",
+    "static/media/ravenous.491ecba5.PNG": "/static/media/ravenous.491ecba5.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.66373b99.js",
     "static/js/2.e6cdecb6.chunk.js",
     "static/css/main.10c4225a.chunk.css",
-    "static/js/main.7c86a312.chunk.js"
+    "static/js/main.ef9f05d0.chunk.js"
   ]
 }
