@@ -1,6 +1,6 @@
 import React from 'react';
 import {Photo, Name, Title, Description, ProfileContainer, TextContainer} from './profile-styling.js';
-import profilePhoto from '../../../../utils/CV-Migues.jpg';
+import profilePhoto from '../../../../assets/CV-Migues.jpg';
 
 function Profile(){
     return (

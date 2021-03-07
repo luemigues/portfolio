@@ -28,7 +28,7 @@ function DesktopMenu(props){
                     </StyledLink>
                 </ListItem>
 
-                <ListItem>
+                {/* <ListItem>
                     <StyledLink 
                     to="design"                     
                     activeClassName="selected" 
@@ -42,9 +42,9 @@ function DesktopMenu(props){
                     to="photography"                    
                     activeClassName="selected"
                     onClick={props.handleClick}> 
-                        Photgraphy 
+                        Photography 
                     </StyledLink>
-                </ListItem>
+                </ListItem> */}
             </ListContainer>
 
             <Link to="/contact">
