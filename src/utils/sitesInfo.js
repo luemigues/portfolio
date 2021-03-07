@@ -17,21 +17,21 @@ const ravenous = {
     img: ravenousPic,
     title: "Ravenous",
     github: "https://github.com/luemigues/Ravenous",
-    website: "https://luemigues-podcast.netlify.app/"
+    website: "https://luemigues-ravenous.netlify.app/"
 }
 
 const jamming = {
     img: jammingPic,
     title: "Jamming",
     github: "https://github.com/luemigues/jammingApp",
-    website: "https://luemigues-podcast.netlify.app/"
+    website: "https://luemigues-jamming.netlify.app/"
 }
 
 const gifos = {
     img: gifosPic,
     title: "Gifos",
     github: "https://github.com/luemigues/gifOS",
-    website: "https://luemigues-podcast.netlify.app/"
+    website: "https://luemigues-gifos.netlify.app/"
 }
 
 const delilah = {
