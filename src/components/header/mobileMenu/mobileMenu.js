@@ -25,7 +25,7 @@ function MobileMenu(props){
                     </StyledLink>
                 </ListItem>
 
-                <ListItem>
+                {/* <ListItem>
                     <StyledLink 
                     to="design"                     
                     activeClassName="selected" 
@@ -41,7 +41,7 @@ function MobileMenu(props){
                     onClick={props.handleClick}> 
                         Photography 
                     </StyledLink>
-                </ListItem>
+                </ListItem> */}
 
                 <ListItem>
                     <StyledLink 
